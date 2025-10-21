@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Electrum-KNF
+Version: 4.3.2
+Summary: Lightweight KNF Coin Wallet
+Home-page: https://github.com/knfcoin/electrum-knf
+Author: VU KNF Team
+Author-email: knf@vu.lt
+License: MIT Licence
+Requires-Python: >=3.8.0
+Provides-Extra: hardware
+Provides-Extra: gui
+Provides-Extra: crypto
+Provides-Extra: tests
+Provides-Extra: full
+Provides-Extra: fast
+License-File: LICENCE
+License-File: AUTHORS
+
+Lightweight KNF Coin Wallet

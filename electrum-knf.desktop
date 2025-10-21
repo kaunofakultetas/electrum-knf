@@ -1,0 +1,23 @@
+# If you want Electrum to appear in a Linux app launcher ("start menu"), install this by doing:
+# sudo desktop-file-install electrum-knf.desktop
+
+[Desktop Entry]
+Comment=Lightweight KNF Coin Client
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-ltc %u"
+GenericName[en_US]=KNF Coin Wallet
+GenericName=KNF Coin Wallet
+Icon=electrum-ltc
+Name[en_US]=Electrum KNF Coin Wallet
+Name=Electrum KNF Coin Wallet
+Categories=Finance;Network;
+StartupNotify=true
+StartupWMClass=electrum-knf
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/knfcoin;
+Actions=Testnet;
+
+[Desktop Action Testnet]
+Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum-ltc --testnet %u"
+Name=Testnet mode
+

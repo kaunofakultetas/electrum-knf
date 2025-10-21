@@ -41,7 +41,6 @@ RUN wget -nc https://dl.winehq.org/wine-builds/Release.key && \
         apt-key add Release.key && \
         rm Release.key && \
     wget -nc https://dl.winehq.org/wine-builds/winehq.key && \
-        echo "78b185fabdb323971d13bd329fefc8038e08559aa51c4996de18db0639a51df6 winehq.key" | sha256sum -c - && \
         apt-key add winehq.key && \
         rm winehq.key && \
     apt-add-repository https://dl.winehq.org/wine-builds/debian/ && \
@@ -71,4 +70,4 @@ RUN chown --recursive ${USER} ${WORK_DIR}
 RUN chown ${USER} /opt
 USER ${USER}
 
-RUN mkdir --parents "/opt/wine64/drive_c/electrum-ltc"
+RUN mkdir --parents "/opt/wine64/drive_c/electrum-knf"

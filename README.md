@@ -1,20 +1,17 @@
-# Electrum-LTC - Lightweight Litecoin client
+# Electrum-KNF - Lightweight KNF Coin client
 
 ```
 Licence: MIT Licence
 Author: Thomas Voegtlin
-Port Maintainer: Pooler
+Port Maintainer: VU KNF Team
 Language: Python (>= 3.8)
-Homepage: https://electrum-ltc.org/
+Homepage: https://github.com/knfcoin/electrum-knf
 ```
 
 
 ## Getting started
 
-_(If you've come here looking to simply run Electrum-LTC,
-[you may download it here](https://electrum-ltc.org/#download).)_
-
-Electrum-LTC itself is pure Python, and so are most of the required dependencies,
+Electrum-KNF itself is pure Python, and so are most of the required dependencies,
 but not everything. The following sections describe how to run from source, but here
 is a TL;DR:
 
@@ -65,21 +62,21 @@ If you would like hardware wallet support,
 ### Running from tar.gz
 
 If you downloaded the official package (tar.gz), you can run
-Electrum-LTC from its root directory without installing it on your
+Electrum-KNF from its root directory without installing it on your
 system; all the pure python dependencies are included in the 'packages'
-directory. To run Electrum-LTC from its root directory, just do:
+directory. To run Electrum-KNF from its root directory, just do:
 ```
 $ ./run_electrum
 ```
 
-You can also install Electrum-LTC on your system, by running this command:
+You can also install Electrum-KNF on your system, by running this command:
 ```
 $ sudo apt-get install python3-setuptools python3-pip
 $ python3 -m pip install --user .
 ```
 
 This will download and install the Python dependencies used by
-Electrum-LTC instead of using the 'packages' directory.
+Electrum-KNF instead of using the 'packages' directory.
 It will also place an executable named `electrum-ltc` in `~/.local/bin`,
 so make sure that is on your `PATH` variable.
 
@@ -91,8 +88,8 @@ and [for macOS](contrib/osx/README_macos.md))_
 
 Check out the code from GitHub:
 ```
-$ git clone https://github.com/pooler/electrum-ltc.git
-$ cd electrum-ltc
+$ git clone https://github.com/knfcoin/electrum-knf.git
+$ cd electrum-knf
 $ git submodule update --init
 ```
 
@@ -107,7 +104,7 @@ $ sudo apt-get install python-requests gettext
 $ ./contrib/pull_locale
 ```
 
-Finally, to start Electrum-LTC:
+Finally, to start Electrum-KNF:
 ```
 $ ./run_electrum
 ```
@@ -139,9 +136,6 @@ Any help testing the software, reporting or fixing bugs, reviewing pull requests
 and recent changes, writing tests, or helping with outstanding issues is very welcome.
 Implementing new features, or improving/refactoring the codebase, is of course
 also welcome, but to avoid wasted effort, especially for larger changes,
-we encourage discussing these on the issue tracker or IRC first.
+we encourage discussing these on the issue tracker first.
 
-Besides [GitHub](https://github.com/pooler/electrum-ltc),
-most communication about Electrum-LTC development happens on IRC, in the
-`#electrum-ltc` channel on Libera Chat. The easiest way to participate on IRC is
-with the web client, [web.libera.chat](https://web.libera.chat/#electrum-ltc).
+Development happens on [GitHub](https://github.com/knfcoin/electrum-knf).
