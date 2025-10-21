@@ -76,6 +76,6 @@ setup(
     author="VU KNF Team",
     author_email="knf@vu.lt",
     license="MIT Licence",
-    url="https://github.com/knfcoin/electrum-knf",
+    url="https://github.com/kaunofakultetas/electrum-knf",
     long_description="""Lightweight KNF Coin Wallet""",
 )

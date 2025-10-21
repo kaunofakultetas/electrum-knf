@@ -7,7 +7,7 @@
 ;Variables
 
   !define PRODUCT_NAME "Electrum-KNF"
-  !define PRODUCT_WEB_SITE "https://github.com/knfcoin/electrum-knf"
+  !define PRODUCT_WEB_SITE "https://github.com/kaunofakultetas/electrum-knf"
   !define PRODUCT_PUBLISHER "VU KNF Team"
   !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 

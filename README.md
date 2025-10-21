@@ -5,7 +5,7 @@ Licence: MIT Licence
 Author: Thomas Voegtlin
 Port Maintainer: VU KNF Team
 Language: Python (>= 3.8)
-Homepage: https://github.com/knfcoin/electrum-knf
+Homepage: https://github.com/kaunofakultetas/electrum-knf
 ```
 
 
@@ -88,7 +88,7 @@ and [for macOS](contrib/osx/README_macos.md))_
 
 Check out the code from GitHub:
 ```
-$ git clone https://github.com/knfcoin/electrum-knf.git
+$ git clone https://github.com/kaunofakultetas/electrum-knf.git
 $ cd electrum-knf
 $ git submodule update --init
 ```
@@ -138,4 +138,4 @@ Implementing new features, or improving/refactoring the codebase, is of course
 also welcome, but to avoid wasted effort, especially for larger changes,
 we encourage discussing these on the issue tracker first.
 
-Development happens on [GitHub](https://github.com/knfcoin/electrum-knf).
+Development happens on [GitHub](https://github.com/kaunofakultetas/electrum-knf).
